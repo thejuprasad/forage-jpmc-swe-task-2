@@ -46,9 +46,7 @@ class App extends Component<{}, IState> {
     //   this.setState({ data: [...this.state.data, ...serverResponds] });
     // });
 
-    // method to contact
-    // the server and get data from it continuously instead of just getting data from it
-    // once every time you click the button.
+    // method to contact the server and get data from it continuously instead of just getting data from it once every time you click the button.
 
     let x=0;
     const interval=setInterval(()=>{
